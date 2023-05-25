@@ -5,7 +5,7 @@ class Car
 {
 public:
 
-    Car(sf::Vector2f position);                 //load l'image l√† dedans 
+    Car(sf::Vector2f position);                 //load l'image l‡ dedans 
     sf::Sprite GetSprite();
 
 
@@ -24,8 +24,8 @@ public:
 
     //void move();
 
-    int directionX = 0.0f; // Initialiser directionX √† 0
-    int directionY = 0.0f; // Initialiser directionY √† 0
+    int directionX = 0.0f; // Initialiser directionX ‡ 0
+    int directionY = 0.0f; // Initialiser directionY ‡ 0
 
     virtual ~Car();
 
